@@ -5,7 +5,7 @@ import marketRoutes from './src/routes/marketRoutes.js';
 import { updateMarketCache } from './src/services/scraperService.js';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3010;
 
 app.use(express.json());
 
